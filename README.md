@@ -14,16 +14,17 @@ pomocą nadania pięciu kropek („…..”).
 # 3. Schemat połączeń
 Do poprawnego działania programu będziemy potrzebować :
 • Wyświetlacz LCD1602A
-FRDM-KL05: LCD:
-PTB3 SCL
-PTB4 SDA
-+5V VCC
-GND GND
+FRDM-KL05 - LCD:
+PTB3-SCL
+PTB4-SDA
++5V-VCC
+GND-GND
+
 • Czujnik światła ALS-PT19
 FRDM-KL05: ALS-PT19:
-3.3V „+”
-GND „-”
-PTB11 OUT
+3.3V-„+”
+GND-„-”
+PTB11-OUT
 
 # 4. Inne
 Program został napisany w środowisku Keil uVision5 oraz został skompilowany przy pomocy Arm Compiler
